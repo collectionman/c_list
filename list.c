@@ -38,7 +38,7 @@ struct List {
 
     Node* get_node( int position ) {
         if ( position <= 0 ) {
-            return NULL_PTR ; // position is invalid, so return null
+            return NULL_PTR ; // Position is invalid, so return null
         }
 
         int count = 1 ;
